@@ -1,0 +1,29 @@
+@import '../../components/define.scss';
+
+.page {
+  padding: 0 1rem 1rem 1rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @include md {
+    flex-direction: row;
+  }
+}
+
+.bio {
+  flex-basis: 100%;
+
+  @include md {
+    flex-basis: 30%;
+  }
+}
+
+.content {
+  flex-basis: 100%;
+
+  @include md {
+    flex-basis: 70%;
+  }
+}

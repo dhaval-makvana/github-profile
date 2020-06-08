@@ -1,0 +1,47 @@
+@import '../define.scss';
+
+.filterContainer {
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+  margin-top: 1rem;
+
+  @include md {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.searchContainer {
+  width: 100%;
+  height: 8rem;
+  padding-bottom: 2rem;
+
+  @include md {
+    // padding: 0.4rem
+  }
+
+  input {
+    height: 97%;
+    width: 97%;
+    font-size: 5rem;
+  }
+}
+
+.dropdownContainer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @include md {
+    padding: .4rem;
+  }
+}
+
+.newButton {
+  background-color: green;
+  color: white;
+  font-size: 3rem;
+}

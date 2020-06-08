@@ -1,0 +1,26 @@
+@import '../define.scss';
+
+.dropdownContainer {
+	height: 8rem;
+	padding: 4px;
+	font-size: 2rem;
+	position: relative;
+	
+	@include md {
+		height: 5rem;
+	}
+  
+  select {
+    height: 100%;
+    font-size: 3rem;
+    width: auto;
+  }
+}
+
+// .dropdown {
+// 	width: 200px;
+// 	top: 50%;
+// 	left: 50%;
+// 	transform: translate(-50%, -50%);
+// 	position: absolute;
+// }

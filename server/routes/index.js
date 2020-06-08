@@ -6,4 +6,12 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/get-bio', function(req, res, next) {
+  
+});
+
+router.get('/get-repos', function(req, res, next) {
+
+});
+
 module.exports = router;

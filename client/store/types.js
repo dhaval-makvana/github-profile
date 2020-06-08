@@ -1,0 +1,5 @@
+export const FETCH_USER_BIO = 'FETCH_USER_BIO';
+export const FETCH_USER_REPOS = 'FETCH_USER_REPOS';
+export const SEARCH_REPO = 'SEARCH_REPO';
+export const FILTER_BY_TYPE = 'FILTER_BY_TYPE';
+export const FILTER_BY_LANGUAGE = 'FILTER_BY_LANGUAGE';

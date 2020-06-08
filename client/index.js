@@ -2,7 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import styles from "./index.module.scss";
-import App from "./ListingPage";
+import App from "./pages/Profile";
+import { Provider } from 'react-redux';
+import store from './store/index';
 
 document.addEventListener("DOMContentLoaded", () => {
 	let root = document.getElementById("root");
@@ -13,7 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 	ReactDOM.render(
 		<BrowserRouter>
-			<App className={`${styles.body} ${styles.code}`} />
+			<Provider store={store}>
+        <App />
+      </Provider>
 		</BrowserRouter>,
 		root
 	);
